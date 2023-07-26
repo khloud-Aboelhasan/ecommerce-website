@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Register-form{
+    background-image: url(../image/input-bg-01.jpg);
+    width: 100%;
+    height: 234vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+}
+.register{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 44%;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 39px 64px;
+    }
+    
+    form{
+        color: white;
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 34px;
+    }
+    input[type=text] ,input[type=password] ,input[type=email] ,select{
+        display: block;
+        width: 100%;
+        padding: 8px 10px;
+        margin: 12px 0px 29px 0px;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size: 19px;
+        cursor: pointer;
+        outline: none;
+    }
+    input[type=date]{
+        display: block;
+        width: 100%;
+        padding: 8px 10px;
+        margin: 12px 0px 29px 0px;
+        border: 1px solid gray;
+        border-radius: 5px;
+        box-sizing: border-box;
+        font-size:  19px;
+        color: grey;
+        outline: none;
+        cursor: pointer;
+
+
+    }
+    label{
+        font-size: 20px;
+    }
+    .submit{
+        text-align: center;
+        margin-top: 33px;
+    }
+    input[type=submit]{
+        padding: 11px 46px;
+        border: none;
+        border-radius: 9px;
+        box-sizing: border-box;
+        background-color: teal;
+        font-size: 30px;
+        color: white;
+        outline: none;
+        text-align: center;
+
+    }
+    input[type=submit]:hover{
+        background-color: white;
+        color: teal;
+        cursor: pointer;
+    }
+   
+    
+    
+    

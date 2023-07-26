@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+#log-in {
+  background-image: url(../image/input-bg-04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 140vh;
+  position: relative;
+  background-attachment: fixed;
+}
+.Login{
+  width: 50%;
+  border-radius: 6px;
+  background:rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  position: absolute;
+  top: 43%;
+  left: 51%;
+  transform: translate(-50% , -50%);
+}
+.Login form{
+  color: white;
+}
+.Login h2{
+  color: #ffffff;
+  text-align: center;
+  font-size: 35px;
+}
+.Login form input[type=password] ,input[type=email]{
+  display: block;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 12px 0px 20px 0px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+.Login form label{
+  font-size: 20px;
+}
+.Login .butt-log{
+  display: block;
+  width: 26%;
+  margin: 30px auto ;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: teal;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  outline: none;
+}
+.Login .butt-log:hover{
+  background-color: white;
+  color: rgb(5, 182, 182);
+  cursor: pointer;
+}
+.Login form input::placeholder{
+  font-size: 20px;
+}
+.Login form input{
+  outline: none;
+}
+.icon-login{
+  margin: 6px 229px;
+}
+.Login .icon-login i{
+  margin-left: 30px;
+}
+.Login .icon-login .fa-facebook{
+  color:white;
+  font-size: 45px;
+}
+.Login .icon-login .fa-facebook:hover{
+ cursor: pointer;
+ color: rgb(15, 15, 226);
+}
+
+.Login .icon-login .fa-whatsapp{
+  color:white;
+  font-size: 45px;
+
+}
+.Login .icon-login .fa-whatsapp:hover{
+  cursor: pointer;
+  color: rgb(50, 240, 12);
+ }
+.Login .icon-login .fa-instagram{
+  color:white;
+  font-size: 45px;
+
+}
+.Login .icon-login .fa-instagram:hover{
+  cursor: pointer;
+  color: rgb(252, 113, 0);
+ }
+ .Register-Now {
+   margin-top: 36px;
+ }
+.Register-Now h3{
+  color: white;
+  font-size: 22px;
+}
+.Register-Now h3 a{
+  color: #3a3aff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

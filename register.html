@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <title>Register Page</title>
+</head>
+<body>
+    <section class="Register-form">
+    <div class="register">
+        <h2>Please Fill This Form To Register </h2>
+        <form action="index.html" name="inputForm" onsubmit="return validationform() ">
+            <label for="fist">First Name : </label>
+<input placeholder="Enter First Name " type="text" id="first" name="first">
+            
+            <label for="last">Last Name : </label>
+<input placeholder="Enter Last Name " type="text" id="last" name="last">
+
+            <label for="pass"> Enter Password : </label>
+<input placeholder="Enter Password " type="password" name="pass" id="pass">
+
+            <label for="confirmpass"> Confirm Password : </label>
+<input placeholder="Enter Confirm Password "type="password" name="confirmpass" id="confirmpass">
+
+            <label for="email"> Enter Email : </label>
+ <input placeholder="Enter Email "type="email" id="email" name="email">
+
+            <label for="date"> Enter Birth Date : </label>
+  <input placeholder="dd / mm / yyyy " type="date" id="date" name="date">
+
+            <label for="Countery"> Choose Countery : </label>
+            <select name="countery" type="countery" id="country">
+
+            <option  name ="option"value="">Egypt</option>
+            <option  name ="option" value="">England</option>
+            <option  name ="option" value="">France</option>
+            <option  name ="option" value="">Italy</option>
+            </select>
+
+            <label for=""> Your Gender :</label>
+            <input checked type="radio" id="male" name="gender">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">Female</label>
+
+            <br><br>
+            <label for="">Hobbies :</label>
+            <input type="checkbox" id="=Swimming" name="swimming">
+            <label for="swimming">Swimming</label>
+            <input type="checkbox" id="=running" name="Running">
+            <label for="running">running</label>
+            <input type="checkbox" id="=volleyball" name="volleyball">
+            <label for="swimming">Volleyball</label>
+
+           <div class="submit"><input name="submit" type="submit" value="Register"></div> 
+        </form>
+    </div>
+
+</section>
+
+
+    <script src="js/register.js"></script>
+</body>
+</html>
